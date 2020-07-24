@@ -68,8 +68,8 @@ LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
 
 # Heroku Credentials for updater.
-HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
-HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+HEROKU_APP_NAME = os.environ.get("openubot", None)
+HEROKU_API_KEY = os.environ.get("435f540c-951f-4129-8d85-d8321389c5df", None)
 
 # Github Credentials for updater and Gitupload.
 GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
@@ -105,7 +105,7 @@ CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
 GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", None)
 
 # OpenWeatherMap API Key
-OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
+OPEN_WEATHER_MAP_APPID = os.environ.get("ff3703705a3a14d619e186e2b763b184", None)
 WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", None)
 
 # Anti Spambot Config
@@ -119,8 +119,8 @@ YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 
 # Time & Date - Country and Time Zone
-COUNTRY = str(os.environ.get("COUNTRY", ""))
-TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
+COUNTRY = str(os.environ.get("INDONESIA", ""))
+TZ_NUMBER = int(os.environ.get("+7", 1))
 
 # Clean Welcome
 CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
